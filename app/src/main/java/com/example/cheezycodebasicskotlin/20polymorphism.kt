@@ -25,7 +25,7 @@ fun main(){
 // So no neeed to change the Below code, Because we made the Reference of parent class.
 // After adding Triangle class, no chnage required in calculateAreas(),
 // because we made reference of parent class.
-fun calculateAreas(shapes: Array<Shape>){  // Reference of parent Class.
+private fun calculateAreas(shapes: Array<Shape>){  // Reference of parent Class.
     for(shape in shapes){
         println(shape.area())  // area method has many forms,
     // when we are passing objects of different shapes, thats why its polymorphism.
